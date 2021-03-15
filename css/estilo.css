@@ -1,0 +1,60 @@
+				body{
+				background-color: #DEB887;
+				margin-left: auto;
+				margin-right: auto;
+				width: 80%;
+
+			}
+
+			h1,h2{
+				background-color:#6a4025;
+				text-align: center;
+				font-style: italic;
+				color:#fff;
+				font-size: 220%;
+				text-shadow: 5px 5px 8px #000;
+		 		font-family: "Lucida Console", monospace;
+
+			}
+
+			ul,p{ font-size: 30px;
+				 border: 4px solid;
+		         border-radius: 15px;
+				 color:#401f0a;
+				 font-family: "Lucida Handwriting", cursive;
+
+			}
+
+			figure{
+
+				text-align:center;
+				
+				
+			}
+			img{
+				width: 80%;
+				border: 4px solid;
+				border-color: #401f0a;
+			}
+			a:link {
+			  color: #ad4906;
+			  background-color: transparent;
+			  text-decoration: underline;
+			}
+
+			a:visited {
+			  color: #ac6f9a;
+			  background-color: transparent;
+			  text-decoration: none;
+			}
+
+			a:hover {
+			  color: red;
+			  background-color: transparent;
+			  text-decoration: underline;
+			}
+
+			a:active {
+			  color: yellow;
+			  background-color: transparent;
+			  text-decoration: underline;
