@@ -1,13 +1,34 @@
 				body{
 				background-color: #DEB887;
-				width: 80%;
-				margin-left: auto;
-				margin-right: auto;
+			
 				color:#fff;
 				font-size: 220%;
 				font-family: "Lucida Console", monospace;
 
 			}
+
+			.container{
+
+				width: 80%;
+				margin-left: auto;
+				margin-right: auto;
+
+
+			}
+
+
+			header, footer{
+				width: 100%;
+				background-color: rgba(151,56,11,0.7);
+				padding: 20px;
+				text-align: center;
+				color:#401f0a;
+				font-family: "Lucida Handwriting", cursive;
+
+
+			}
+
+
 
 			h1,h2{
 				background-color:#6a4025;
@@ -24,8 +45,21 @@
 		         border-radius: 15px;
 				 color:#401f0a;
 				 font-family: "Lucida Handwriting", cursive;
+				 margin-top: 2%;
+				 margin-bottom: 2%;
 
 			}
+
+			.centro{
+				text-align: center;
+				color:#553c18;
+				border: 4px solid;
+		        border-radius: 15px;
+		        border-color: rgba(151,56,11,0.7);
+		        font-family: "Brush Script MT",cursive;
+
+			}
+
 
 			figure{
 
@@ -77,5 +111,4 @@
 			}
 			tr:nth-child(even) {
  			 background-color: #878482;
- 			 b
  			}
