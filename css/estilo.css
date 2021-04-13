@@ -44,10 +44,16 @@
 				background-color:#6a4025;
 				text-align: center;
 				font-style: italic;
-				text-shadow: 5px 5px 8px #000;
+				text-shadow: 5px 5px 8px #000;	
 		 		
 				
 
+			}
+
+			h1{
+				text-align: center;
+				font-style: italic;
+				text-shadow: 5px 5px 8px #000;
 			}
 
 			ul,ol,li,p{ 
@@ -107,14 +113,28 @@
 				width: 80%;
 			}
 
+
 			th,td,tr {
 				border: 4px solid;
 			    color:#401f0a;
 			    text-align: center;
 			    padding: 5px;
 			    font-family: "Lucida Handwriting", cursive;
-
 			}
-			tr:nth-child(even) {
- 			 background-color: #878482;
+
+ 			tr:nth-child(even) {
+ 				background: rgb(188,157,84);
+ 			}
+
+			tr:nth-child(odd) {
+				background: rgb(208,188,125);
+			}
+
+ 			a,th{
+ 				font-weight: bolder;
+ 			}
+
+ 			th{
+ 				background-color: rgb(189,109,51);
+ 				font-size: 1.2em
  			}
