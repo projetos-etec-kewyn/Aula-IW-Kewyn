@@ -1,6 +1,5 @@
 				body{
 				background-color: #DEB887;
-			
 				color:#fff;
 				font-size: 220%;
 				font-family: "Lucida Console", monospace;
@@ -109,8 +108,9 @@
 			}
 
 			table {
-				border-collapse: collapse;
-				width: 80%;
+				margin: auto;
+				width: 50%;
+				right: 50%;
 			}
 
 
@@ -134,7 +134,11 @@
  				font-weight: bolder;
  			}
 
+ 			td{
+ 				font-size: 0.9em;
+ 			}
+
  			th{
  				background-color: rgb(189,109,51);
- 				font-size: 1.2em
+ 				font-size: 1.2em;
  			}

@@ -1,0 +1,141 @@
+		body{
+			background-color: #DEB887;
+			font-size: 220%;
+		}
+
+		h1{
+			text-align: center;
+		}
+		
+		.fixo{
+			position: fixed;
+			top: 0;
+			right: 0;
+			left: 0;
+			z-index: 1030;
+			background-color: rgb(140,66,11);
+		}
+
+		.main{
+			margin-top: 20%;
+		}
+
+		.container{
+			position: relative;
+			background-color: #DEB887;
+			width: 100%;
+			height: 1220px;
+			text-align: center;
+		}
+
+		.topoesquerda{
+			position: absolute;
+			top: 16px;
+			left: 16px;
+			font-size: 18px;
+			width: 20%;
+			color: #fff;
+			
+		}
+
+		.topodireita{
+			position: absolute;
+			top: 16px;
+			right: 16px;
+			font-size: 18px;
+			width: 20%;
+			color: #fff;
+			
+		}
+
+		.abaixoesquerda{
+			position: absolute;
+			bottom: 16px;
+			left: 16px;
+			font-size: 18px;
+			width: 20%;
+			color: #fff;
+			
+		}
+
+		.abaixodireita{
+			position: absolute;
+			bottom: 16px;
+			right: 16px;
+			font-size: 18px;
+			width: 20%;
+			color: #fff;
+		}
+			
+
+		.centro{
+			position: absolute;
+			top: 50%;
+			margin-left: 40%;
+			font-size: 18px;
+			width: 20%;
+			color: #fff;
+			
+		}
+		img{
+			position: absolute;
+			top: 16px;
+			left: 16px;
+			text-align: center;
+			width: 100%;
+			right: 1220px;
+			border: 4px solid;
+			border-color: #401f0a;
+		}
+		header{
+			width: 100%;
+			text-align: center;
+			color:#401f0a;
+			font-family: "Lucida Handwriting", cursive;
+			background-color:#6a4025;
+			font-style: italic;
+			text-shadow: 5px 5px 8px #000;
+			font-size: 1.5em;
+		}
+		h2{
+			color: #fff;
+			background-color:#6a4025;
+			text-align: center;
+			font-style: italic;
+			text-shadow: 5px 5px 8px #000;
+			font-size: 1.2em;
+		}
+		a:link {
+			  color: #ad4906;
+			  background-color: transparent;
+			  text-decoration: underline;
+			}
+
+		a:visited {
+			  color: #ac6f9a;
+			  background-color: transparent;
+			  text-decoration: none;
+			}
+
+		a:hover {
+			  color: red;
+			  background-color: transparent;
+			  text-decoration: underline;
+			}
+
+		a:active {
+			  color: yellow;
+			  background-color: transparent;
+			  text-decoration: underline;
+			}
+
+		p {
+			font-size: 0.8em;
+			background-color: #be9663;
+			color:#401f0a;
+			font-family: 'Dancing Script', cursive;
+			margin-top: 2%;
+			margin-bottom: 2%;
+			border: 4px solid;
+			border-color: #401f0a;
+			}
