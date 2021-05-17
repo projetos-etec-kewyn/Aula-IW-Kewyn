@@ -1,6 +1,6 @@
 		body{
 			background-color: #DEB887;
-			font-size: 220%;
+			font-size: 180%;
 		}
 
 		h1{
@@ -8,78 +8,191 @@
 			
 		}
 		
-		.fixo{
-			position: fixed;
-			top: 0;
-			right: 0;
-			left: 0;
-			z-index: 1030;
-			background-color: rgb(140,66,11);
-		}
+				.fixo{
+					position: fixed;
+					z-index: 1030;
+					top: 0;   
+					right: 0;
+					left: 0;
+				}
+		
 
 		.main{
 			margin-top: 20%;
 		}
+		.imglogo{
+					width: 35%;
 
-		.container{
-			position: relative;
-			background-color: #DEB887;
-			width: 100%;
-			height: 1220px;
-			text-align: center;
-		}
+				}
+				.imgtexto{
+					width: 80%;
+					border: 4px solid;
+					border-color: #401f0a;
+					box-shadow: 20px 20px 5px grey;
 
-		.topoesquerda{
-			position: absolute;
-			top: 16px;
-			left: 16px;
-			font-size: 18px;
-			width: 20%;
-			color: #fff;
+				}
+
+				.imgtexto:hover{
+					box-shadow: 40px 40px 5px black;
+					width: 90%;
+					transition: 2s;
+				}
+
+
+				@media screen and (max-width: 600px) {
+				.container{
+					margin-top: 55%;
+					}
+					header{
+						background-color: rgb(151,56,11);
+					}
+					.imglogo{
+						margin-right: auto;
+						margin-left: auto;
+					}
+									}
+				@media screen and (min-width: 600px) {
+				.container{
+					margin-top: 45%;
+					}
+					header{
+						background-color: rgb(151,56,11);
+					}
+					.imglogo{
+						margin-right: auto;
+						margin-left: auto;
+					}
+				}
+				@media screen and (min-width: 768px) {
+				.container{
+					margin-top: 20%;
+					}
+					header{
+						background-color: rgba(151,56,11);
+						flex-direction: row;
+						position: relative;
+					}
+
+					.menu_opcoes{
+						position: absolute;
+						right: 5%;
+						top: 45%;
+
+					}
+
+					.menu_opcoes ul li{
+						display: inline;
+						margin-left: 10px;
+					}
+					.imglogo{
+						margin-left: 5%;
+					}
+				
+				}
+
+
+				.container{
+
+					width: 80%;
+					margin-left: auto;
+					margin-right: auto;
+					position: relative;
+				}
+
+				.topoesquerda{
+				position: absolute;
+				top: 56px;
+				left: 10px;
+				font-size: 18px;
+				width: 20%;
+				color: #fff;
+				
+			}
+
+			.topodireita{
+				position: absolute;
+				top: 56px;
+				right: 16px;
+				font-size: 18px;
+				width: 20%;
+				color: #fff;
+				
+			}
+
+			.abaixoesquerda{
+				position: absolute;
+				bottom: 56px;
+				left: 16px;
+				font-size: 18px;
+				width: 20%;
+				color: #fff;
+				
+			}
+
+			.abaixodireita{
+				position: absolute;
+				bottom: 56px;
+				right: 16px;
+				font-size: 18px;
+				width: 20%;
+				color: #fff;
+			}
+				
+
+			.centro{
+				position: absolute;
+				top: 50%;
+				margin-left: 40%;
+				font-size: 18px;
+				width: 20%;
+				color: #fff;
+				
+			}
+
+				
+				.listas_menu a{
+					font-size: 1em;
+					color: white;
+					font-family: "Verdana", Sans-serif;
+					text-decoration: none;
+				}
+
+				.listas_menu a:hover{
+					background-color: #666;
+					color: black;
+					text-decoration: underline;
+
+				}
+
+
+				header, footer{
+					padding: 1%;
+					position: relative;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					font-size: 0.6em;
+					line-height: 1.5;
+					font-family: "Lucida Handwriting", cursive;
+					font-weight: bold;
+
+				}
+				
+				footer{
+					background-color: rgb(151,56,11);
+					text-align: center;
+					padding: 3%;
+					font-size: 1.5em;
+					font-weight: bold;
+				}
+				.link{
+					font-family: 'Dancing Script', cursive;
+					text-decoration: none;
+					font-weight: normal;
+				}
+				
 			
-		}
-
-		.topodireita{
-			position: absolute;
-			top: 16px;
-			right: 16px;
-			font-size: 18px;
-			width: 20%;
-			color: #fff;
-			
-		}
-
-		.abaixoesquerda{
-			position: absolute;
-			bottom: 16px;
-			left: 16px;
-			font-size: 18px;
-			width: 20%;
-			color: #fff;
-			
-		}
-
-		.abaixodireita{
-			position: absolute;
-			bottom: 16px;
-			right: 16px;
-			font-size: 18px;
-			width: 20%;
-			color: #fff;
-		}
-			
-
-		.centro{
-			position: absolute;
-			top: 50%;
-			margin-left: 40%;
-			font-size: 18px;
-			width: 20%;
-			color: #fff;
-			
-		}
 		img{
-			position: absolute;
 			top: 16px;
 			left: 16px;
 			text-align: center;

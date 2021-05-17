@@ -6,41 +6,53 @@
 		<title>Primeiro Site</title> <!-- Título -->
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
-		<link rel="shortcut icon" href="Fotos/favicon.png">
+		<link rel="shortcut icon" href="Fotos/favicon4.png">
 		<link rel = "preconnect" href = "https://fonts.gstatic.com">
 		<link href = "https://fonts.googleapis.com/css2? family = Dança + Script & display = swap" rel = "folha de estilo">
 
 	</head>
 
 	<body>
-		<header>
-			<nav><h1>DESENVOLVIMENTO PARA INTERNET – HTML E CSS</h1></nav>
+		<header class="fixo">
+			<img class="imglogo" src="Fotos/LogoTipo3.jpg">
+			<nav class="menu_opcoes">
+				<ul class="listas_menu">
+					<li><a class="listas_menu" href="index.html">Início</a></li>
+					<li><a class="listas_menu" href="index.html#html">HTML</a></li>
+					<li><a class="listas_menu" href="#css">CSS</a></li>
+					<li><a class="listas_menu" href="javascript.html">JavaScript</a></li>
+					<li><a class="listas_menu" href="#rodape">Contato</a></li>
+				</ul>
+			</nav>
 		</header>
 		<div class="container">
-			<div>
+			<h1 class="titulo_grande" >Desenvolvimento para Internet – HTML e CSS</h1>
+			<br>
+			<br>
+			<div id="html">
 
 			
 				<!--Conteúdo-->
 					<h2 class="titulos">O que é o W3C​</H2>
-						<UL>
+						<UL class="listas">
 							<LI>O W3C (World Wide Web Consortium), criado em outubro de 1994 por Tim Berners-Lee, é um consórcio internacional formado por empresas, instituições, pesquisadores, desenvolvedores e público em geral. A finalidade desse consórcio é desenvolver a web a seu potencial máximo, criando normas, especificações e padronizações que se aplicam aos mais diversos segmentos e setores da web. (W3C, ONLINE)​
 						</UL>
 					<h2 class="titulos">Breve histórico da evolução do HTML</h2>
-						<ul>
+						<ul class="listas">
 							<li>Desde a invenção da web em 1992 por Tim Berners-Lee, a HTML evoluiu a cada versão lançada, sendo a versão mais atual a HTML5. (SILVA, 2011, p.21)​
 						</ul>
-						<figure><img src="Fotos/Foto.PNG" alt="Imagem evolução do HTML"></figure>
-						<p>Veja um tutorial de HTML aqui</p>
+						<figure><img class="imgtexto" src="Fotos/Foto.PNG" alt="Imagem evolução do HTML"></figure>
+						<p>Veja um tutorial de HTML aqui:</p>
 						<a href="https://www.w3schools.com/html/html_intro.asp" target="_blank"><button class="button"><span>Clique aqui</span></button></a>
 						<br>
 						<br>
 						<br>
 						<h2 class="titulos">Editores HTML</h2>
-						<ul>
+						<ul class="listas">
 							<li> Os editores HTML são os softwares que utilizamos para criar as páginas da web empregando as linguagens de marcação e de estilo. Tais editores possuem diversas funcionalidades que auxiliam no processo de desenvolvimento da página, proporcionando, por exemplo a visualização do projeto tanto em linhas de códigos quanto em design de apresentação.​
 						</ul>
 					<h2 class="titulos">Exemplos de editores Free</h2>
-						<ul>
+						<ul class="listas">
 							<li>Brackets (Disponível em: http://brackets.io/)​
 
 						<li>HTML Kit  (versão 292 free) (disponível para download em : 
@@ -53,18 +65,19 @@
 							disponível em https://www.sublimetext.com/​
 						</ul>
 			</div>
-			<div>
+			<div id="css">
 					<h2 class="titulos">O que é e para que serve o CSS​</H2>
 						<p> Veja um tutorial completo de CSS no botão abaixo:</p>
 						<a href="https://www.w3schools.com/css/css_intro.asp" target="_blank"><button class="button"><span>Clique aqui</span></button></a>
 
-						<UL>
-							<LI>CSS (Cascading Style Sheets — Folhas de Estilos em Cascata) é uma extensão da HTML, uma linguagem de estilo, ou seja, fazendo o uso dessa linguagem é possível definir como o conteúdo dos elementos HTML serão apresentados na página da Web. Essa extensão foi incorporada à linguagem HTML a partir de sua quarta versão em 1997.
-								<LI>O CSS3 (que vamos aprender) é a segunda versão da linguagem CSS.​
-						       <LI>Separar o conteúdo do documento HTML de sua formatação.​ </ul>
+						<ul class="listas">
+							<li>CSS (Cascading Style Sheets — Folhas de Estilos em Cascata) é uma extensão da HTML, uma linguagem de estilo, ou seja, fazendo o uso dessa linguagem é possível definir como o conteúdo dos elementos HTML serão apresentados na página da Web. Essa extensão foi incorporada à linguagem HTML a partir de sua quarta versão em 1997.
+							<li>O CSS3 (que vamos aprender) é a segunda versão da linguagem CSS.​
+						    <li>Separar o conteúdo do documento HTML de sua formatação.​
+					    </ul>
 					​<h2 class="titulos">Benefícios do uso do CSS</h2>
 
-						<ul>
+						<ul class="listas">
 							<li> Controle do layout de diversos documentos utilizando apenas uma folha de estilos.​
 
 						    <li>Maior precisão no controle do layout e design​
@@ -75,8 +88,6 @@
 
 						<p>Clique no botão para aprender um pouco sobre Javascript:</p>
 						<a href="javascript.html" target="_blank"><button class="button"><span>Clique aqui</span></button></a>
-						<p>Clique no botão para ver os posicionamentos em CSS</p>
-						<a href="posicionamento.html" target="_blank" class="link"><botton class="button"><span>Clique aqui</span></button></a>
 
 						
 						<br>
@@ -86,7 +97,7 @@
 		</div>	
 		<footer>
 			
-			<p class="centro">Rodapé
+			<p id="rodape" class="centro">Rodapé</p>
 		</footer>	
 	</body>
 </html>
