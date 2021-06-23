@@ -3,13 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<title>JavaScript</title>
+		<title>Quiz</title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
 		<link rel="shortcut icon" href="Fotos/favicon4.png">
 		<link rel = "preconnect" href = "https://fonts.gstatic.com">
 		<link href = "https://fonts.googleapis.com/css2? family = Dança + Script & display = swap" rel = "folha de estilo">
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 	</head>
 
 	<body>
@@ -153,7 +152,7 @@
 			          </g>
 			        </g>
 				</svg>
-		</a>
+			</a>
 			<nav class="menu_opcoes">
 				<ul class="listas_menu">
 					<li><a class="listas_menu" href="index.html">Início</a></li>
@@ -168,60 +167,80 @@
 			</nav>
 		</header>
 		<div class="container">
-			<h1 class="titulo_grande" >Conheça um pouco sobre JavaScript</h1>
+			<h1 class="titulo_grande">Quiz sobre HTML</h1> <br>
+			<p> Teste seus conhecimentos respondendo um quiz com perguntas sobre HTML. Boa sorte!</p><br>
+			<div class="fundoquiz">
+				<form>
+					<p class="inf">Informe alguns dados:</p><br><br>
+					<div class="divsquiz">
+						<p>Digite seu nome completo:</p><input id="nomes" type="text" name="nome"placeholder="Digite seu nome aqui"><br><br>
+					</div>
+					<div class="divsquiz">
+						<p>Email:</p><input id="email" type="email" name="email"placeholder="Digite seu email aqui"><br><br>
+					</div>
+					<div class="divsquiz">
+						<p>Selecione sua cor preferida: <input type="color" name="favcor"><br><br>
+					</div>
+					<div class="divsquiz">
+						<p>Informe a data e o horário aproximado em que você está fazendo este formulário:</p><br>
+						<input id="datahora" type="datetime-local" name="Datahora"><br><br>
+					</div>
+					<p class="inf">Agora vamos ao teste!</p><br><br>
+					<div class="divsquiz">
+						<b><label> <h3 class="títulosquiz">1. Qual é o tipo de linguagem do HTML?</label></b><br><br>
+						<input class="textpeq" placeholder="Linguagem de..." type="text"><br><br>
+					</div>
+					<div class="divsquiz">
+						<b><h2 class="títulosquiz">2. Qual a tag para adicionar um link?</h2></b><br>
+						<input type="radio" name="gênero">
+						<label class="respostasquiz">&lt;table&gt</label><br>
+						<input type="radio" name="gênero">
+						<label class="respostasquiz">&lt;a&gt</label><br><br>
+
+					</div>
+					<div class="divsquiz">
+						<b><h2 class="títulosquiz">3. Quais as tags utilizadas ao fazer uma tabela?</h2></b><br>
+						<input type="checkbox" name="tabela">
+						<label class="respostasquiz">&lt;figure&gt</label><br>
+						<input type="checkbox" name="tabela">
+						<label class="respostasquiz">&lt;td&gt</label><br>
+						<input type="checkbox" name="tabela">
+						<label class="respostasquiz">&lt;th&gt</label><br>
+						<input type="checkbox" name="tabela">
+						<label class="respostasquiz">&lt;div&gt</label><br>
+						<input type="checkbox" name="tabela">
+						<label class="respostasquiz">&lt;tr&gt</label><br>
+						<input type="checkbox" name="tabela">
+						<label class="respostasquiz">&lt;header&gt</label><br><br>
+					</div>
+					<div class="divsquiz">
+						<label> <h3 class="títulosquiz">4. Selecione a função da tag &lt;ul&gt:</label><br><br>
+							<select>
+								<option>Selecione a opção</option>
+								<option>Criar uma divisão lógica.</option>
+								<option>Trazer uma imagem.</option>
+								<option>Gerar uma lista não-ordenada.</option>
+								<option>Criar um formulário.</option>
+							</select><br><br>
+					</div>
+					<div class="divsquiz">
+						<b><h2 class="títulosquiz">5. Descreva como fazer um menu responsivo com @menu:</h2></b><br>
+							<textarea class="arearesposta" placeholder="Para fazer um menu..."></textarea> <br><br>
+					</div>
+					<div>
+						<p> Defina o nível de dificuldade que você teve ao fazer este teste, de Muito Fácil a Muito Difícil:</p><br>
+							<div id="nivel">
+								<input type="range" name="satisfacao" min="0" max="30">
+							</div><br><br><br>
+					</div>
+					<div>
+						<input id="enviar" class="button" type="submit" value="Enviar">
+					</div>
+				</form>
+			</div>
 			<br>
 			<br>
-			<div>
-				<ol class="listas">
-					<li class="item">JavaScript é a linguagem de programação mais popular do mundo.</li>
-
-					<li class="item">JavaScript é a linguagem de programação da web.</li>
-
-					<li class="item">JavaScript é fácil de aprender.</li>
-
-					<li class="item">Este tutorial ensinará JavaScript do básico ao avançado.</li>
-				</ol>
-
-					<h2 class="titulos">Por que estudar JavaScript?</h2>
-						 	 <p>JavaScript é uma das 3 linguagens que todos os desenvolvedores da web devem aprender:
-						 	  <ol class="listas">
-								 <li class="item"> HTML para definir o conteúdo das páginas da web
-
-								 <li class="item">CSS para especificar o layout das páginas da web
-
-								 <li class="item">JavaScript para programar o comportamento das páginas da web 
-							  </ol>
-			</div>
-			<div>
-
-		            <h2 class="titulos"> Comparação HTML, CSS e Javascript</h2>
-
-		            <br>
-
-
-		            	<table>
-		            		<tr>
-		            			<th>HTML</th>
-		            			<th>CSS</th>
-		            			<th>Javascript</th>
-		            		</tr>
-		            		<tr>
-		            			<td>Estrutura</td>
-		            			<td>Estilo</td>
-		            			<td>Comportamento</td>
-		            		</tr>
-		            		<tr>
-		            			<td>Marcações como título e parágrafos</td>
-		            			<td>Cores e alguns efeitos</td>
-		            			<td>Lógica da página</td>
-		            		</tr>
-		            	</table>	
-		            	
-		            	<p>Clique aqui para voltar à página inicial: </p>
-		            	<a href="index.html" target="_blank"><botton class="button"><span>Clique aqui</span></button></a>
-		            	<br>
-		            	<br>	 	
-			</div>
+			
 		</div>
 		<footer>
 			
